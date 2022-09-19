@@ -1,9 +1,127 @@
-<html>
- 
-<body>
-  <h1>Duncan Munro</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+<!DOCTYPE html>
+<head>
+    <title>Codeacademy project</title>
+    <link rel="stylesheet" href="Resources\style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+    <header>
+        <h1 id="header">The different types of input types in HTML</h1>
+    </header>
+    <main>
+        <br /><br /><br /><br />
+        <h2>They are generally used with forms</h2>
+        <p> At least that's how I've been taught to use them so far.
+        <br />
+        <h3> Input Types:</h3>
+        <br /><br /><br /><br />
+        <table>
+            <thead>
+            <tr id="col-headings">
+                <!-- Heading of table, outlines columns-->
+                <th scope="col" class="name">Name of input type</th>
+                <th scope="col" class="what">What/How it's used</th>
+                <th scope="col" class="example">Example of it</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr id="zero">
+                <!-- first row, text-->
+                <th class="name">"Text"</th>
+                <th class="what">text is the default input type </th>
+                <th class="example"><input type="text" name="example"></th>
+            </tr>
+            <tr id="first">
+                <!-- second row, password-->
+                <th class="name">"Password"</th>
+                <th class="what">this type is used when you want to obscure the text as it's entered.</th>
+                <th class="example"><input type="password"></th>
+            </tr>
+            <tr id="second">
+                <!-- third row, number-->
+                <th class="name">"Number"</th>
+                <th class="what">You use this when you want the user to input a number. Use the step attribute to add up and down arrows.</th>
+                <th class="example"><input type="number" step="1"></th>
+            </tr>
+            <tr id="third">
+                <!-- fourth row, range-->
+                <th class="name">"Range"</th>
+                <th class="what">USe this when you want the user to input a number within a range. Use min, max, and step attribute to help you.</th>
+                <th class="example"><input type="range" min="0" max="15" step="1"></th>
+            </tr>
+            <tr id="fourth">
+                <!-- fifth row, checkbox-->
+                <th class="name">"Checkbox"</th>
+                <th class="what">Use this when you give multiple options for one answer. Like toppings.</th>
+                <th class="example">
+                    <label for="cheese">Extra Cheese</label>
+                    <input id="cheese" name="topping" type="checkbox" value="cheese">
+                </th>
+            </tr>
+            <tr id="fifth">
+                <!-- sixth row, radio-->
+                <th class="name">Radio Button</th>
+                <th class="what">Use this when you want to give multiple choices, but only one answer can be chosen.</th>
+                <th class="example">
+                    <label>What's 1+1=?</label>
+                    <input type="radio" id="two" name="answer" value="two">
+                    <label for="two">2</label>
+                    <input type="radio" id="one" name="answer" value="one">
+                    <label for="one">1</label>
+                </th>
+            </tr>
+            <tr id="sixth">
+                <!-- seventh row, dropdown-->
+                <th class="name">Dropdown Lists</th>
+                <th class="what">Use this to choose from a plethora of options</th>
+                <th class="example">
+                    <label for="for-lunch">What's for lunch?</label>
+                    <select id="for-lunch" name="for-lunch"></select>
+                    <option selected value="PLease Select">Please Select</option>
+                    <option value="za">Pizza</option>
+                    <option value="glizzy">Glizzies</option>
+
+                </th>
+            </tr>
+            <tr id="seventh">
+                <!-- eighth row, datalist-->
+                <th class="name">"Datalist"</th>
+                <th class="what">Users can enter a value or choose from a list of options</th>
+                <th class="example">
+                    <label for="city">Ideal City to Visit?</label>
+                    <input type="text" list="cities" id="city" name="city">
+                    <datalist id="cities">
+                        <option value="New York City"></option>
+                    </datalist>
+                </th>
+            </tr>
+            <tr id="eighth">
+                <!-- ninth row, textarea-->
+                <th class="name">"Textarea</th>
+                <th class="what">Use this for a blog post or anything else that would take up space.</th>
+                <th class="example">
+                    <label for="blog">New Blog Post:</label>
+                    <br>
+                    <textarea id="blog" name="blog" rows="5" cols="10">My first blog.</textarea>
+                    </textarea>
+                </th>
+            </tr>
+            </tbody>
+            <tfoot>
+                <!-- footer of table-->
+                <td colspan="3">
+                <span id="bottom">This is a basic overview of the different input types you can use when creating a form</span>
+                </td>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <!-- footer of page-->
+        <br /><br /><br />
+        <span>Made by Duncan Munro</span>
+    </footer>
 </body>
- 
-</html>
+
