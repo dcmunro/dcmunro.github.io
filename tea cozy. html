@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tea Cozy</title>
+
+    <link rel="stylesheet" type="text/css" href="./Resources/style.css">
+</head>
+        <!-- **Fixed Header for Website-->
+    <header>
+        <nav class="website-directory">
+            <img class="logo" src="./Resources/Tea.1.png" alt="Tea Cozy">
+            <ul>
+                <!-- directory w/in banner of website-->
+                <li class="mfl"><a href="#mission">Mission</a></li>
+                <li class="mfl"><a href= "#feat">Featured</a></li>
+                <li class="mfl"><a href="#location">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <body>
+            <!-- First Image and mission statemnt-->
+            <div class="container mission-section" id="mission">
+                <div class="banner">
+                    <h2>Our Mission:</h2>
+                    <p class="support">Handpicked, Artisianlly Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</p>
+                </div>
+            </div>
+             <!-- Displays the 5 teas of the month-->
+        <div class="container tea-of-month-section" id="feat">
+            <div class="child">
+            <h2>Tea of the month</h2>
+            <p class="support">What's Steeping at The Tea Cozy</p>
+            </div>
+            <div class="pics">
+            <figure><img class="tea-of-month" src="./Resources/tea2.jpg"><figcaption class="tea-name">Bedford Bizzare Tea</figcaption></figure>
+            <figure><img class="tea-of-month" src="./Resources/img-myrtle-ave.jpg"><figcaption class="tea-name">Myrtle Ave Tea</figcaption></figure>
+            <figure><img class="tea-of-month" src="./Resources/img-spiced-rum.jpg"><figcaption class="tea-name">Spiced Rum Tea</figcaption></figure>
+            <figure><img class="tea-of-month" src="./Resources/img-donut.jpg"><figcaption class="tea-name">Seasonal Doughnuts</figcaption></figure>
+            <figure><img class="tea-of-month" src="./Resources/tea3.jpg"><figcaption class="tea-name">Berry Blitz Tea</figcaption></figure>
+            </div>
+        </div>
+        <!-- Displays the locations for Coffee shop-->
+        <div class="container shop-locations-section">
+            <h2 id="location">Locations</h2>
+            <div class="location-container">
+            <div class="square">
+                <h3 class="location">Downtown</h3>
+                <p class="location-support">384 West 4th St </p>
+                <p class="location-support">Suite 108</p>
+                <p class="location-support">Portland, Maine</p>
+            </div>
+            <div class="square">
+                <h3 class="location">East Bayside</h3>
+                <p class="location-support">3433 Phisherman's Avenue</p>
+                <p class="location-support"> (Northwest Corner)</p>
+                <p class="location-support"> Portland, Maine</p>
+            </div>
+            <div class="square">
+                <h3 class=”location">Oakdale</h3>
+                <p class="location-support">515 Crescent Avenue </p>
+                <p class="location-support">Second Floor</p>
+                <p class="location-support">Portland, Maine</p>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h3> The Tea Cozy</h3>
+            <h5>contact@theteacozy.com</h5>
+            <h5>917-555-8904</h5>
+        </div>
+        <div class="copyright">
+            <h5>copyright The Tea Cozy 2017</h5>
+        </div>
+    </body>
+    </main>
+</html>
+
+    
+
+</html>
